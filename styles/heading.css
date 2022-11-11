@@ -1,0 +1,29 @@
+.heading {
+  min-height: 100px;
+
+  /* TODO: delete, for testing purposes */
+  background-color: lightgrey;
+  border: solid 1px lightgrey;
+}
+
+.heading > h1 {
+  color: grey;
+  font-family: sans-serif;
+}
+
+.heading > div {
+  float: left;
+  margin-right: 10px;
+}
+
+.heading > div > div {
+  float: left;
+  color: orange;
+  margin-left: 2px;
+  font-weight: 400;
+}
+
+.heading > div > a {
+  text-decoration: none;
+  color: black;
+}
