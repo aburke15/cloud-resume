@@ -8,7 +8,10 @@
 .skills > h3 {
   color: orange;
 }
+.skills > div {
+  display: inline-block;
+}
 .skills > div > li {
   float: left;
-  margin-right: 10px;
+  margin-right: 15px;
 }

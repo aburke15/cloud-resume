@@ -24,8 +24,7 @@
 .heading > div > div > div {
   float: left;
   color: orange;
-  margin-left: 2px;
-  font-weight: 400;
+  margin-right: 4px;
 }
 .heading > div > div > a {
   text-decoration: none;
