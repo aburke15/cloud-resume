@@ -1,0 +1,14 @@
+.skills {
+
+  /* TODO: delete at some point */
+  border: solid white 1px;
+  height: auto;
+}
+
+.skills > h3 {
+  color: orange;
+}
+.skills > div > li {
+  float: left;
+  margin-right: 10px;
+}

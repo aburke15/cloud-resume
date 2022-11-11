@@ -1,4 +1,9 @@
 .paddings {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0px 75px 0px 75px;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  .paddings {
+    padding: 0px 40px 0px 40px;
+  }
 }
