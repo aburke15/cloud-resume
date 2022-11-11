@@ -1,0 +1,24 @@
+.exp {
+
+  /* TODO: delete at some point */
+  border: solid white 1px;
+  height: auto; 
+}
+
+.exp > div {
+  margin-top: 10px;
+}
+.exp > div > div {
+  margin-top: 10px;
+}
+.exp > div > div > li {
+  margin-left: 3px;
+}
+.exp-title {
+  display: inline;
+}
+.exp-date {
+  float: right;
+  display: inline;
+  margin-right: 200px;
+}

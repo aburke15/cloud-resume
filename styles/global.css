@@ -7,3 +7,23 @@
     padding: 0px 40px 0px 40px;
   }
 }
+
+.tab {
+    /* border: solid white 1px; */
+  height: 30px;
+  background-color: orange;
+  color: white;
+  display: inline-block;
+  margin-top: 30px;
+  padding-top: 7px;
+
+  /* TODO: delete at some point */
+}
+.tab > h3 {
+  margin: 0;
+}
+.tab-p {
+  border: 1px solid orange;
+  width: 100%;
+  margin-top: -2px;
+}
