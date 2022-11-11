@@ -2,8 +2,8 @@
 
 
   /* TODO: delete */
-  border: solid lightgrey 1px;
-  height: 300px;
+  border: solid white 1px;
+  height: auto;
 }
 
 .summary > h3 {

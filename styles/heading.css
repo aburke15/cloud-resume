@@ -8,29 +8,37 @@
   /* TODO: delete, for testing purposes */
 }
 
-.heading > h1 {
+.heading > div {
+  margin-top: 28px;
+}
+.heading > div > h1 {
   margin: 0;
   color: grey;
   font-family: sans-serif;
-  font-size: 50px;
+  font-size: 45px;
 }
-.heading > div {
+.heading > div > div {
   float: left;
   margin-right: 10px;
 }
-.heading > div > div {
+.heading > div > div > div {
   float: left;
   color: orange;
   margin-left: 2px;
   font-weight: 400;
 }
-.heading > div > a {
+.heading > div > div > a {
   text-decoration: none;
   color: black;
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
-  .heading > h1 {
+  .heading > div > h1 {
     font-size: 40px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .heading > div {
+    margin-top: 15px;
   }
 }
