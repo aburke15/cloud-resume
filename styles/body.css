@@ -1,7 +1,8 @@
 .container {
-  margin: auto;
-  height: 1200px;
+  margin: 50px auto 50px auto;
+  height: 1500px;
   border: solid lightgrey 1px;
+  border-radius: .5em;
 
   /* TODO: comment out, for visualizing the container */
 }
