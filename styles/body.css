@@ -1,11 +1,12 @@
 .container {
   margin: 50px auto 50px auto;
-  height: 1500px;
+  height: 90vh;
+  height: calc(var(--vh, 1vh) * 90);
   border: solid lightgrey 1px;
   border-radius: .5em;
 
   /* TODO: comment out, for visualizing the container */
-  
+
 }
 
 @media (min-width: 0px) and (max-width: 1000px) {
