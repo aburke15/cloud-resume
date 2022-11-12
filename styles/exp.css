@@ -1,7 +1,6 @@
 .exp {
 
   /* TODO: delete at some point */
-  border: solid white 1px;
   height: auto; 
 }
 
@@ -23,4 +22,10 @@
 .exp-line {
   width: 85%;
   margin-left: 0;
+}
+
+@media (min-width: 0px) and (max-width: 1000px) {
+  .exp-date {
+    margin-right: 80px;
+  }
 }
