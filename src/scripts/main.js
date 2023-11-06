@@ -1,9 +1,9 @@
+const pageVisitCountName = "pageVisitCount";
+
 window.onload = async () => {
   document.getElementById("page-visit-count").innerHTML = await getPageVisitCountFromLambda();
   console.log("Updated page visit count");
 };
-
-const pageVisitCountName = "pageVisitCount";
 
 async function getPageVisitCountFromLambda() {
   try {
